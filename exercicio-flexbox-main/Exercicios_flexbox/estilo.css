@@ -60,8 +60,9 @@ h1 {
   display: flex;
 } 
 
-.container-exercicio-B {
+.container-exercicioB {
     display: flex;
+    flex-direction: column-reverse;
 }
 
 .container-desafio{
@@ -69,3 +70,10 @@ h1 {
     flex-direction: row-reverse;
     justify-content: start;
 }
+
+/* Levando como exemplo os exercícios A e B, desenvolva a página de forma que seus elementos fiquem dispostos alinhados horizontalmente da direita para a esquerda, tendo seu último elemento “grudado” no lado esquerdo da tela. 
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center; }
+*/
