@@ -35,31 +35,37 @@ h1 {
 /* Insira o código abaixo */
 
  .container1 {
-  
+  display: flex;
 }
 
 .container2 {
-  
+  display: flex;
+  justify-content: end;
 }
 
 .container3 {
- 
+ display: flex;
+ justify-content: center;
 }
 
 .container4 {
-  
+  display: flex;
+  justify-content: space-between;
 }
 .container5 {
-  
+  display: flex;
+  justify-content: space-around;
 }
 .container6 {
-  
+  display: flex;
 } 
 
-.container-exercicio-B{
-
+.container-exercicio-B {
+    display: flex;
 }
 
 .container-desafio{
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
 }
